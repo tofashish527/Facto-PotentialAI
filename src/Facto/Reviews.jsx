@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 const Review = () => {
   return (
     <section className="py-20 px-6 bg-gray-50">
-      <div className="max-w-6xl mx-auto text-center mb-12">
+      <div className="max-w-7xl mx-auto text-center mb-12">
     
         <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-4">
           Hear What Customers Say<br></br> About CASA!
@@ -27,7 +27,7 @@ const Review = () => {
                 <FaStar key={i} />
               ))}
             </div>
-            <span className="text-gray-800 font-semibold">ADyen</span>
+            <span className="text-green-500 font-serif font-semibold text-2xl">adyen</span>
           </div>
 
           
@@ -66,7 +66,14 @@ const Review = () => {
                 <FaStar key={i} />
               ))}
             </div>
-            <span className="text-gray-800 font-semibold">MSmith</span>
+            <div className="flex">
+              <span className="text-gray-800 font-semibold text-2xl mt-2">axway</span>
+            <svg width="25" height="50" viewBox="0 0 51 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.4004 20.9985V14.1406L40.1135 9.09802V19.3849L0.78125 0.626465V7.48439L45.7612 28.865V18.7798L50.4004 20.9985Z" fill="#D22630"/>
+<path d="M10.8458 25.9161V32.774L18.1071 36.203L6.40833 48.5069H14.0731L27.7889 33.9842L10.8458 25.9161Z" fill="#D22630"/>
+<path d="M6.20681 13.4104L45.7407 32.3706L37.6726 35.3961L6.20681 20.2684V13.4104Z" fill="#D22630"/>
+</svg>
+            </div>
           </div>
 
           {/* Review Title */}
@@ -93,6 +100,12 @@ const Review = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center mt-10 space-x-2">
+  <span className="w-3 h-3 rounded-full bg-gray-300"></span>
+  <span className="w-3 h-3 rounded-full bg-green-600"></span> {/* Active */}
+  <span className="w-3 h-3 rounded-full bg-gray-300"></span>
+</div>
     </section>
   );
 };

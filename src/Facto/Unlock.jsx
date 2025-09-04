@@ -17,7 +17,7 @@ const Unlock = () => {
         </p>
 
         
-        <button className="px-8 py-3 bg-amber-200 text-black rounded-full text-lg font-medium hover:bg-gray-900 transition">
+        <button className="px-8 py-3 bg-amber-200 text-black hover:text-white rounded-full text-lg font-medium hover:bg-gray-900 transition">
           Let’s Get Started!
         </button>
       </div>
