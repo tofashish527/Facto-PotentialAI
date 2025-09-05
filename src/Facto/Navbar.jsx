@@ -39,10 +39,10 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           {/* Desktop Buttons */}
           <div className="hidden md:flex space-x-4">
-            <button className="px-5 py-2 text-black rounded-2xl bg-green-200 hover:bg-green-300 transition">
+            <button className="px-5 py-2 border font-semibold border-green-900  bg-green-200 text-black hover:bg-green-900 hover:text-white rounded-2xl transition">
               Sign In
             </button>
-            <button className="px-5 py-2 text-white rounded-2xl bg-black hover:bg-gray-800 transition">
+            <button className="px-5 py-2 border text-white rounded-2xl bg-black hover:bg-white hover:text-black font-semibold transition">
               Sign Up
             </button>
           </div>
@@ -72,10 +72,10 @@ const Navbar = () => {
           </ul>
 
           <div className="flex justify-center space-x-4 px-6 pb-4">
-            <button className="px-5 py-2 text-black rounded-2xl bg-green-200 hover:bg-green-300 transition">
+            <button className="px-5 py-2 border border-green-900 rounded-2xl bg-green-200 text-black hover:bg-green-900 hover:text-white transition">
               Sign In
             </button>
-            <button className="px-5 py-2 text-white rounded-2xl bg-black hover:bg-gray-800 transition">
+            <button className="px-5 py-2 border text-white rounded-2xl bg-black hover:bg-white hover:text-black font-semibold transition">
               Sign Up
             </button>
           </div>
