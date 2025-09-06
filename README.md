@@ -1,12 +1,19 @@
-# React + Vite
+# Facto-potentialAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Figma File
 
-Currently, two official plugins are available:
+Design in Figma: 
+[https://www.figma.com/design/GTGIDBSQZ8Xd5ni1aMKV5c/Frontend-Dev-Assessment?node-id=1-2&p=f&t=Ghp4i0THkf9Yrs4v-0]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo 
 
-## Expanding the ESLint configuration
+Check the live project here(Netlify): [facto-potentialai-livelink.netlify.app]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## **Technologies Used**
+
+- **React** – Frontend UI library  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **React Icons** – For icons  
+- **JavaScript (ES6+)**  
+- **HTML5 & CSS3**
+
