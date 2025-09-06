@@ -4,9 +4,12 @@ import { FaStar } from "react-icons/fa";
 const Review = () => {
   return (
     <section className="py-20 px-6 bg-gray-50">
+
       <div className="max-w-7xl mx-auto text-center mb-12">
-    
-        <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-4">
+        <span className="bg-green-100 text-green-700 px-4 py-1 text-center rounded-full text-sm font-medium ">
+         Reviews
+        </span>
+        <h2 className="text-3xl md:text-3xl mt-3 font-bold text-gray-900 mb-4">
           Hear What Customers Say<br></br> About CASA!
         </h2>
         
@@ -18,7 +21,7 @@ const Review = () => {
 
       
       <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto">
-      
+         {/* Review Card 1 */}
         <div className="flex-1 bg-white shadow-lg rounded-2xl p-6">
           
           <div className="flex justify-between items-center mb-4">
@@ -59,7 +62,6 @@ const Review = () => {
 
         {/* Review Card 2 */}
         <div className="flex-1 bg-white shadow-lg rounded-2xl p-6">
-          {/* Stars & Name */}
           <div className="flex justify-between items-center mb-4">
             <div className="flex text-yellow-400">
               {[...Array(5)].map((_, i) => (
@@ -76,12 +78,10 @@ const Review = () => {
             </div>
           </div>
 
-          {/* Review Title */}
           <h3 className="text-xl font-semibold text-gray-900 mb-3">
             “Reliable & Transparent!”
           </h3>
 
-          {/* Review Text */}
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             CASA has completely transformed my cash flow. As a restaurant owner, waiting for credit card payments used to be a struggle. Now, I get my funds within 24 hours, allowing me to pay suppliers and staff on time. The process is seamless, and the transparency in pricing is a huge plus.!
           </p>

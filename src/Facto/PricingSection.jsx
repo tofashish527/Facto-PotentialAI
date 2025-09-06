@@ -12,6 +12,9 @@ const PricingSection = () => {
   return (
     <section className="py-12 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto text-center mb-12">
+        <span className="bg-green-100 text-green-700 px-4 py-1 text-center rounded-full text-sm font-medium ">
+         Pricing
+        </span>
         <h2 className="text-3xl font-bold">
           Simple, Transparent <br /> Pricing — No Hidden Fees!
         </h2>

@@ -1,8 +1,7 @@
 
 import { AiOutlinePlus } from "react-icons/ai";
 import { BsFillLightningFill } from "react-icons/bs";
-import { CiCirclePlus } from "react-icons/ci";
-import { FaCheckCircle, FaCircle, FaFeatherAlt } from "react-icons/fa";
+import { FaCircle, FaFeatherAlt } from "react-icons/fa";
 import { HiSquare3Stack3D } from "react-icons/hi2";
 import { LuActivity } from "react-icons/lu";
 import { MdOutlineAttachMoney } from "react-icons/md";
@@ -114,9 +113,6 @@ const Hero = () => {
                 <p className="text-xl text-black font-semibold">$11,531.25</p>
                 </div>
 
-              {/* <div className="mt-6 bg-white rounded-full h-4 overflow-hidden">
-                <div className="bg-green-600 h-4 w-3/4 rounded-full"></div>
-              </div> */}
               <div className="w-full mt-6">
   <div className="flex justify-end mb-1">
     <span className="text-sm font-semibold text-gray-700 mr-15">75%</span>
@@ -210,6 +206,8 @@ const Hero = () => {
     </div>
   </div>
 </div>
+
+
 
             </div>
           </div>
