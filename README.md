@@ -1,5 +1,3 @@
-# Facto-potentialAI
-
 ## Figma File
 
 Design in Figma: 
@@ -7,7 +5,21 @@ Design in Figma:
 
 ## Live Demo 
 
-Check the live project here(Netlify): [facto-potentialai-livelink.netlify.app]
+Check the live project here(Netlify): []
+
+# Facto-potentialAI
+CASA is a responsive React-based web application designed for business owners and users to interact seamlessly with CASA services. The platform features a modern, clean, and intuitive UI, optimized for desktop, tablet, and mobile devices. Key features include:
+
+Contact Section: Allows users to send messages, view support information, and access consultation options.
+
+User Stats & Dashboard: Displays total users, monthly statistics, and other key metrics in an interactive card layout.
+
+Financial Overview: Total balance and actionable buttons for adding or managing numbers.
+
+Call-to-Action: Prominent buttons to encourage user interaction and consultation requests.
+
+The design is fully responsive, ensuring a smooth user experience across all devices, with clean visual hierarchy and interactive elements.
+
 
 ## **Technologies Used**
 
